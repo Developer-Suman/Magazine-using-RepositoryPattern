@@ -1,0 +1,75 @@
+﻿@model Megazine_Practice.ViewModel.ArticlesIndexVm
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+<div class="article-list">
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-10">
+                <h1 class="title-head">List of Articles</h1>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-4">
+                        <a asp-action="Create" asp-controller="Articles" class="btn btn-primary">Create</a>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+
+
+            <hr />
+            <div class="col-md-12  table-data mt-3">
+
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Employee</th>
+                        <th>Created At</th>
+                        <th>Action</th>
+
+                    </tr>
+                    @{int i = 1; }
+                    @foreach (var item in Model.ArticlesPagedList)
+                    {
+                        if (item.Articles_Id != 0)
+                        {
+                            <tr data-id="@item.Articles_Id">
+                                <td>@(i++)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                <td>@Html.DisplayFor(modelItem => item.EmployeeViewModel.FullName)</td>
+                                <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
+                                <td>
+                                    <a asp-action="Edit" asp-controller="Articles" asp-route-id="@item.Articles_Id"> <i class="fa-solid fa-pen-to-square"></i></a>
+                                    <a asp-action="Delete" asp-controller="Articles" asp-route-id="@item.Articles_Id"> <i class="fa-sharp fa-solid fa-trash"></i></a>
+
+
+                                </td>
+                            </tr>
+                        }
+                    }
+
+
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+

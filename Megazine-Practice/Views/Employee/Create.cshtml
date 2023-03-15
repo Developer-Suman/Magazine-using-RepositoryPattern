@@ -1,0 +1,150 @@
+﻿@model Megazine_Practice.ViewModel.EmployeeIndexVm
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+<div class="add-form">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-7 ">
+                <div style="background-color:#2BA9AF;">
+                    <h1 class="update-header">Add Your Employee</h1>
+                </div>
+                <form method="Post" enctype="multipart/form-data" asp-action="Create" asp-controller="Employee">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.First_name"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="EmployeeViewModel.First_name" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Last_name"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="EmployeeViewModel.Last_name" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Address"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="EmployeeViewModel.Address" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Contact_1"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="EmployeeViewModel.Contact_1" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Contact_2"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="EmployeeViewModel.Contact_2" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Martial_Status"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <select class="form-control" asp-for="EmployeeViewModel.Martial_Status" asp-items="Html.GetEnumSelectList<Megazine_Practice.Enum.MartialStatusEnum>()">
+                                  <option value="">Select Marital Status</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Gender"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <select class="form-control" asp-for="EmployeeViewModel.Gender" asp-items="Html.GetEnumSelectList<Megazine_Practice.Enum.GenderEnum>()">
+                                <option value="">Select Gender</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Joining_Date"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input type="date" asp-for="EmployeeViewModel.Joining_Date" class="form-control" />
+                        </div>
+                    </div>
+
+                     <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Email"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input type="email" asp-for="EmployeeViewModel.Email" class="form-control" />
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Description"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="EmployeeViewModel.Description" class="form-control" />
+                        </div>
+                    </div>
+
+         
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="EmployeeViewModel.Employee_Image"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input type="file" asp-for="EmployeeViewModel.File" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="button-part mt-4">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <input type="submit" value="ADD EMPLOYEE" class="btn btn-primary" />
+
+                            </div>
+                            <div class="col-md-9">
+                                <a asp-action="Index" asp-controller="Employee" class="btn btn-danger">BACK TO ADMIN</a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

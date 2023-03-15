@@ -1,0 +1,82 @@
+﻿
+@{
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class=" dashboard-admin mt-5">
+            <div id="chart"></div>
+
+        </div>
+
+
+
+    </div>
+    <div class="col-md-6">
+        <div class="admin-comment mt-5">
+            <div class="row mt-5">
+                <div class="col-md-4 " style="display:flex; justify-content:center;">
+                    <i class='fa-solid fa-user-group' style='color: blue; font-size:50px;'></i>
+                    <h4 class="count">30294</h4>
+                    <hr />
+                </div>
+
+                <div class="col-md-4" style="display:flex; justify-content:center;">
+                    <i class='fa fa-comments' style='color:#39f3c5; font-size:50px;'></i>
+                    <h4 class="count">294</h4>
+                </div>
+                <div class="col-md-4" style="display:flex; justify-content:center;">
+                    <i class='fa-solid fa-face-grin-beam' style='color: #f3da35;font-size:50px;'></i>
+                    <h4 class="count">2094</h4><br />
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6" style="margin-top:60px;">
+        <div class=" mt-5">
+            <div class="circle-wrap">
+                <div class="circle">
+
+                    <div class="mask full">
+                        <div class="fill"></div>
+                    </div>
+
+                    <div class="mask half">
+                        <div class="fill"></div>
+                    </div>
+
+                    <div class="inside-circle">
+                        70%
+                    </div>
+
+                </div>
+            </div>
+            <div class="progress-bar">Total Percent of the country use this Megazine</div>
+
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class=" mt-5">
+            <figure id="bar-chart" style="margin-left:40px;">
+                <h1>Journal and Article Chart</h1>
+                <div class="row bars">
+                    <div class="y-axis one" id="yAxis">
+                    </div>
+                    <div class="x-axis" id="xAxis">
+                    </div>
+                </div>
+            </figure>
+
+        </div>
+    </div>
+</div>
+
+

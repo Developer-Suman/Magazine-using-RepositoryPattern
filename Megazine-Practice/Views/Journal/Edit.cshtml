@@ -1,0 +1,86 @@
+﻿@model Megazine_Practice.ViewModel.JournalViewModel
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<form method="Post" enctype="multipart/form-data" asp-action="Edit" asp-controller="Journal">
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <div style="background-color:#2BA9AF;">
+                    <h1 class="update-header">EDIT JOURNAL DATA</h1>
+                    <input type="hidden" asp-for="Journal_Id" />
+                </div>
+
+
+
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model=>Model.Title)
+                    </div>
+                    <div class="col-md-9">
+                        <input asp-for="Title" class="form-control" />
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model=>Model.Description)
+                    </div>
+                    <div class="col-md-9">
+                        <input asp-for="Description" class="form-control" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model=>Model.EmployeeViewModels.FullName)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DropDownListFor(x=> x.Employee_Id, (SelectList)ViewBag.JournalEmployee, "Select Employee", new { @class = "form-control required"})
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model=>Model.CreatedDate)
+                    </div>
+                    <div class="col-md-9">
+                        @*@Html.DisplayFor(model=>model.CreatedDate)*@
+                        <input asp-for="CreatedDate" class="form-control" />
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model=>Model.JournalImage)
+                    </div>
+                    <div class="col-md-9">
+                    
+                        <img src="~/Images/@Html.DisplayFor(model=>Model.JournalImage)" style="height:50px;">
+                        <input type="file" asp-for="File" class="form-control" />
+                        <input type="hidden" class="form-control" asp-for="JournalImage" placeholder="email">
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-2">
+                        <input type="submit" value="UPDATE" asp-action="Edit" class="btn btn-primary" />
+                    </div>
+                    <div class="col-md-10">
+                        <a asp-action="Index" asp-controller="Journal" class="btn btn-danger">BACK TO ADMIN</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+</form>
+
+

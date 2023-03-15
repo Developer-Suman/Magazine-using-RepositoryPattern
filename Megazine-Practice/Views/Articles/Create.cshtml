@@ -1,0 +1,75 @@
+﻿
+@{
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+@model Megazine_Practice.ViewModel.ArticlesIndexVm
+
+@{
+    ViewData["Title"] = "Create";
+    //Layout = "~/Views/Shared/_AdminLayout1.cshtml";
+}
+
+
+<div class="add-form">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-7 ">
+                <div style="background-color:#2BA9AF;">
+                    <h1 class="update-header">Add Your Articles</h1>
+                </div>
+                <form asp-action="Create" method="post">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="ArticlesViewModel.Title"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="ArticlesViewModel.Title" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="ArticlesViewModel.Description"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="ArticlesViewModel.Description" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="ArticlesViewModel.EmployeeViewModel.FullName"></label>
+                        </div>
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(x=> x.ArticlesViewModel.Employee_Id, (SelectList)ViewBag.ArticleEmployee, "Select Employee", new { @class = "form-control required"})
+                        </div>
+                    </div>
+
+                    <div class="button-part mt-4">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <input type="submit" value="ADD ARTICLCLES" class="btn btn-primary" />
+
+                            </div>
+                            <div class="col-md-9">
+                                <a asp-action="Index" asp-controller="Articles" class="btn btn-danger">BACK TO ADMIN</a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Megazine_Practice</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Megazine.styles.css" asp-append-version="true" />
+</head>
+<body style="padding:0; margin:auto;">
+    <header>
+
+        <div class="top-section">
+            <div class="container">
+                <div class="row mt-2">
+                    <div class="col-md-4 col-sm-6">
+                        <i class="fa-brands fa-facebook" style="font-size:25px;"></i>
+                        <i class="fa-brands fa-twitter" style="font-size:25px;"></i>
+                        <i class="fa-brands fa-youtube" style="font-size:25px;"></i>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="input-group">
+                            <input type="search" class="form-control rounded btn-sm" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <button type="button" class="btn btn-danger btn-sm">search</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6" style="display:flex; justify-content:end; ">
+                        <button class="btn btn-primary btn-sm">English</button> &nbsp
+                        <button class="btn btn-danger btn-sm">नेपाली </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid title" >
+            <div class="row ">
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3" style="display:flex; justify-content:center; ">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/NOW_Magazine_Official_Logo.png" height="80px" />
+                        </div>
+                        <div class="col-md-9" style="padding-left:0px; padding-right:0px; display:flex; justify-content:center;">
+
+                            <h3 class="head">THE ONLINE <span style="color:azure; font-size:30px;">MEGAZINES..."</span></h3>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 search-bar">
+                    <div class="container">
+                        <div class="row menu-btn">
+                            <ul>
+
+                                <li>HOME</li>
+                                <li>ABOUT</li>
+                                <li><a asp-controller="Advertisement" style="text-decoration:none; color:black;" class=" custom-link">SERVICES</a></li>
+                                <li>ARTICLES</li>
+                                <li>NEWS</li>
+                                <li>CONTACT</li>
+                                <li>LOGIN</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </header>
+
+    <div >
+        <main role="main" >
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="container-fluid footer" style="position:static;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6" style="padding-left:0px; padding-right:0px;">
+
+
+                    <h3 class="head">THE ONLINE <span style="color:azure; font-size:30px;">MEGAZINES..."</span></h3>
+
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+            <div class="row mt-5 mb-4">
+                <div class="col-md-3">
+                    <h1 class="footer-topic">CONTACT</h1>
+                    <hr />
+                    <h2 class="footer-sub-topics"><i class="fa-solid fa-location-dot" style=""></i> &nbsp Morang Kerabari-9</h2>
+                    <h2 class="footer-sub-topics"><i class="fa-solid fa-phone"></i> &nbsp +98437462342</h2>
+                    <h2 class="footer-sub-topics"><i class="fa-solid fa-envelope"></i> &nbsp info@gmail.com</h2>
+                </div>
+                <div class="col-md-4">
+                    <h1 class="footer-topic">CATEGORIES</h1>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="footer-sub-topics">Politics</h2>
+                            <h2 class="footer-sub-topics">Technology</h2>
+                            <h2 class="footer-sub-topics">Health</h2>
+                            <h2 class="footer-sub-topics">Sports</h2>
+                            <h2 class="footer-sub-topics">Education</h2>
+                            <h2 class="footer-sub-topics">Corrections</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="footer-sub-topics">Politics</h2>
+                            <h2 class="footer-sub-topics">Technology</h2>
+                            <h2 class="footer-sub-topics">Health</h2>
+                            <h2 class="footer-sub-topics">Sports</h2>
+                            <h2 class="footer-sub-topics">Education</h2>
+                            <h2 class="footer-sub-topics">Corrections</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <h1 class="footer-topic">OPINION</h1>
+                    <hr />
+                    <h2 class="footer-sub-topics">Politics</h2>
+                    <h2 class="footer-sub-topics">Technology</h2>
+                    <h2 class="footer-sub-topics">Health</h2>
+                    <h2 class="footer-sub-topics">Sports</h2>
+                    <h2 class="footer-sub-topics">Education</h2>
+                    <h2 class="footer-sub-topics">Corrections</h2>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="footer-topic">CONNECT WITH US</h1>
+                    <hr />
+                    <i class="fa-brands fa-square-instagram"></i>
+                    &nbsp
+                    <i class="fa-brands fa-square-facebook"></i>
+                    &nbsp;
+                    <i class="fa-brands fa-square-youtube"></i>
+                    &nbsp
+                    <i class="fa-brands fa-square-twitter"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="//www.amcharts.com/lib/4/core.js"></script>
+    <script src="//www.amcharts.com/lib/4/charts.js"></script>
+    <script type="text/javascript">
+        var chart = am4core.createFromConfig({
+            // Create pie series
+            "series": [{
+                "type": "PieSeries",
+                "dataFields": {
+                    "value": "litres",
+                    "category": "country"
+                }
+            }],
+            // Add data
+            "data": [
+                {
+                    "country": "Lithuania",
+                    "litres": 501.9
+                },
+                {
+                    "country": "Czech Republic",
+                    "litres": 301.9
+                },
+                {
+                    "country": "Ireland",
+                    "litres": 201.1
+                },
+                {
+                    "country": "Germany",
+                    "litres": 165.8
+                },
+                {
+                    "country": "Australia",
+                    "litres": 139.9
+                },
+                {
+                    "country": "Austria",
+                    "litres": 128.3
+                },
+                {
+                    "country": "UK",
+                    "litres": 99
+                },
+                {
+                    "country": "Belgium",
+                    "litres": 60
+                },
+                {
+                    "country": "The Netherlands",
+                    "litres": 50
+                }
+            ],
+            // And, for a good measure, let's add a legend
+            //"legend": {}
+
+        }, "chart", "PieChart");
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+ 
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Megazine-Practice.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Megazine-Practice.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\1360fb84-c6b0-4320-9e65-c0be1b321277-about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\1360fb84-c6b0-4320-9e65-c0be1b321277-about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\1b5a6acb-d308-433a-949c-93c803215fd9 about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\1b5a6acb-d308-433a-949c-93c803215fd9 about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\1c12e1f0-143b-41ed-b900-6b691ddd3b42-IMG20221210152541.jpg",
+      "PackagePath": "staticwebassets\\Images\\1c12e1f0-143b-41ed-b900-6b691ddd3b42-IMG20221210152541.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\1cea500d-373b-49e8-933b-215be4a2bbbb_IMG20221210152543.jpg",
+      "PackagePath": "staticwebassets\\Images\\1cea500d-373b-49e8-933b-215be4a2bbbb_IMG20221210152543.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\49b7ff06-7eb9-4c81-b7c0-694468be8eb5-young-successful-businessman-correcting-tie.jpg",
+      "PackagePath": "staticwebassets\\Images\\49b7ff06-7eb9-4c81-b7c0-694468be8eb5-young-successful-businessman-correcting-tie.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\53c0e3a6-de44-42ba-9343-ed18a760a02a-young-successful-businessman-correcting-tie.jpg",
+      "PackagePath": "staticwebassets\\Images\\53c0e3a6-de44-42ba-9343-ed18a760a02a-young-successful-businessman-correcting-tie.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\555805eb-145f-48d6-99d6-c9729de76cea about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\555805eb-145f-48d6-99d6-c9729de76cea about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\6a4dc6a8-2a18-4967-9d33-8f0cde0b3705-IMG20221210152543.jpg",
+      "PackagePath": "staticwebassets\\Images\\6a4dc6a8-2a18-4967-9d33-8f0cde0b3705-IMG20221210152543.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\93e4f8ee-7d25-4bec-870f-433ee9f2b3a7_IMG20221210152855.jpg",
+      "PackagePath": "staticwebassets\\Images\\93e4f8ee-7d25-4bec-870f-433ee9f2b3a7_IMG20221210152855.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\95d71c5d-5d33-4c16-83f4-a24d76dc67c4-about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\95d71c5d-5d33-4c16-83f4-a24d76dc67c4-about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\9d1a6119-077b-4624-a002-435067a4055d about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\9d1a6119-077b-4624-a002-435067a4055d about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\a02c8a18-5132-4d4f-b6a3-d8949b8cacbd about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\a02c8a18-5132-4d4f-b6a3-d8949b8cacbd about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\ca0faab3-b95d-4b06-9464-68492117447d about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\ca0faab3-b95d-4b06-9464-68492117447d about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\d930929f-c223-42bd-bd40-987e7df0bba8-about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\d930929f-c223-42bd-bd40-987e7df0bba8-about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\e30c4dc8-ceb2-4e97-849a-40587df40413_IMG20221210152541.jpg",
+      "PackagePath": "staticwebassets\\Images\\e30c4dc8-ceb2-4e97-849a-40587df40413_IMG20221210152541.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\e4d3ecb3-31dc-4576-ae6c-08fbf876c4a5_IMG20221210152901.jpg",
+      "PackagePath": "staticwebassets\\Images\\e4d3ecb3-31dc-4576-ae6c-08fbf876c4a5_IMG20221210152901.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\e87ba222-edf9-487e-a70a-ad5406b33121 about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\e87ba222-edf9-487e-a70a-ad5406b33121 about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\e8fb8ef0-71f9-452c-b77a-a545d1407a53_about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\e8fb8ef0-71f9-452c-b77a-a545d1407a53_about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\ed542334-98e5-43b4-995e-1c58bededd6b-young-successful-businessman-correcting-tie.jpg",
+      "PackagePath": "staticwebassets\\Images\\ed542334-98e5-43b4-995e-1c58bededd6b-young-successful-businessman-correcting-tie.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\ede486b3-9861-42c7-ad49-0e782dc87d87-IMG20221210152540.jpg",
+      "PackagePath": "staticwebassets\\Images\\ede486b3-9861-42c7-ad49-0e782dc87d87-IMG20221210152540.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\f0ae1906-51eb-471b-aced-966b1c38531b_IMG20221210152541.jpg",
+      "PackagePath": "staticwebassets\\Images\\f0ae1906-51eb-471b-aced-966b1c38531b_IMG20221210152541.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\Images\\f47e27cc-9129-47ec-a0f0-210e320d52b0-about-us.jpg",
+      "PackagePath": "staticwebassets\\Images\\f47e27cc-9129-47ec-a0f0-210e320d52b0-about-us.jpg"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\.NET Internship\\OfficePractice\\Megazine-Practice\\Megazine-Practice\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Megazine-Practice.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Megazine-Practice.props",
+      "PackagePath": "build\\Megazine-Practice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Megazine-Practice.props",
+      "PackagePath": "buildMultiTargeting\\Megazine-Practice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Megazine-Practice.props",
+      "PackagePath": "buildTransitive\\Megazine-Practice.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

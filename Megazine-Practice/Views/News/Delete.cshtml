@@ -1,0 +1,82 @@
+﻿@model Megazine_Practice.ViewModel.NewsViewModel
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+<form asp-action="Delete" method="post">
+    <div class="container mt-4">
+        <div class="row">
+            <input type="hidden" asp-for="News_Id" />
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <div style="background-color:#2BA9AF;">
+                    <h1 class="update-header">Are You Sure want to delete???</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+
+                        @Html.DisplayNameFor(model=>model.Title)
+
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DisplayFor(model=>model.Title)
+                        <input type="hidden" asp-for="Title" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model=>model.Description)
+
+                    </div>
+                    <div class="col-md-9">
+                        <input type="hidden" asp-for="Description" />
+                        @Html.DisplayFor(model=>model.Description)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model=>model.EmployeeViewModels.FullName)
+
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DisplayFor(model => model.EmployeeViewModels.FullName)
+                        <input type="hidden" asp-for="EmployeeViewModels.FullName" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model=>model.CreatedDate)
+
+
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DisplayFor(model=>model.CreatedDate)
+                        <input type="hidden" asp-for="CreatedDate" />
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-2">
+                        <input type="submit" value="CONFIRM" class="btn btn-primary" />
+
+                    </div>
+                    <div class="col-md-9">
+                        <a asp-action="Index" class="btn btn-danger">BACK TO ADMIN</a>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+</form>
+

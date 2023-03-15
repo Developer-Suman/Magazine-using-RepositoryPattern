@@ -1,0 +1,79 @@
+﻿@model Megazine_Practice.ViewModel.NewsIndexVm
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+<div class="add-form">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-7 ">
+                <div style="background-color:#2BA9AF;">
+                    <h1 class="update-header">Add Your News</h1>
+                </div>
+                <form method="Post" enctype="multipart/form-data" asp-action="Create" asp-controller="News">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="NewsViewModel.Title"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="NewsViewModel.Title" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="NewsViewModel.Description"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input asp-for="NewsViewModel.Description" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="NewsViewModel.EmployeeViewModels.FullName"></label>
+                        </div>
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(x=> x.NewsViewModel.Employee_Id, (SelectList)ViewBag.NewsEmployee, "Select Employee", new { @class = "form-control required"})
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label asp-for="NewsViewModel.NewsImage"></label>
+                        </div>
+                        <div class="col-md-10">
+                            <input type="file" asp-for="NewsViewModel.File" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="button-part mt-4">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <input type="submit" value="ADD NEWS" class="btn btn-primary" />
+
+                            </div>
+                            <div class="col-md-9">
+                                <a asp-action="Index" asp-controller="News" class="btn btn-danger">BACK TO ADMIN</a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+</div>
+
+

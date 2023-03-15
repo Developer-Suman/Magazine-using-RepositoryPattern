@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Megazine</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Megazine.styles.css" asp-append-version="true" />
+</head>
+<body style="padding:0;">
+    <div>
+        <div>
+            <div class="row admin-pages">
+                <div class="col-md-3">
+                    <div class="admin-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/NOW_Magazine_Official_Logo.png" height="70px" width="32%" />
+                    </div>
+
+
+                </div>
+                <div class="col-md-6" style="justify-content:center; display:flex;">
+                    <h2 class="head" style="color:black;">THE ONLINE <span style="color:azure; font-size:20px;">MAGAZINE..."</span></h2>
+                </div>
+                <div class="col-md-3 admin-user">
+
+
+                    <i class='fa fa-user-circle' style="font-size:20px;  padding-bottom:10px;"></i> &nbsp; <div style="font-weight:bold; padding-bottom:10px;">admin@megazineuser.com</div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row ">
+
+        <div class="col-md-2 " style="margin:0; padding:0;">
+            <div class="admin-menu">
+                <div class="admin-button">
+                    <a asp-controller="Journal" class=" admin-link">JOURNAL</a>
+
+                </div>
+                <div class="admin-button">
+                    <a asp-controller="Articles" class=" admin-link">ARTICLES</a>
+
+                </div>
+                <div class="admin-button">
+                    <a asp-controller="News" class=" admin-link">NEWS</a>
+
+                </div>
+
+                <div class="admin-button">
+                    <a asp-controller="Advertisement" class=" admin-link">ADVERTISEMENT</a>
+
+                </div>
+                <div class="admin-button">
+                    <a asp-controller="Employee" class=" admin-link">EMPLOYEE</a>
+
+                </div>
+                <div class="admin-button">
+                    <a asp-controller="Article" class=" admin-link">REPORT</a>
+
+                </div>
+                <div class="admin-button">
+
+                    <a asp-controller="Home" class=" admin-link" style="background-color:red; padding:5px; margin-left:22px; padding-right:40px;">LOGOUT &nbsp <i class="fa-solid fa-right-from-bracket"></i></a>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div class="col-md-10">
+            @RenderBody()
+        </div>
+    </div>
+    <script src="//www.amcharts.com/lib/4/core.js"></script>
+    <script src="//www.amcharts.com/lib/4/charts.js"></script>
+    <script type="text/javascript">
+        var chart = am4core.createFromConfig({
+            // Create pie series
+            "series": [{
+                "type": "PieSeries",
+                "dataFields": {
+                    "value": "litres",
+                    "category": "country"
+                }
+            }],
+            // Add data
+            "data": [
+                {
+                    "country": "Lithuania",
+                    "litres": 501.9
+                },
+                {
+                    "country": "Czech Republic",
+                    "litres": 301.9
+                },
+                {
+                    "country": "Ireland",
+                    "litres": 201.1
+                },
+                {
+                    "country": "Germany",
+                    "litres": 165.8
+                },
+                {
+                    "country": "Australia",
+                    "litres": 139.9
+                },
+                {
+                    "country": "Austria",
+                    "litres": 128.3
+                },
+                {
+                    "country": "UK",
+                    "litres": 99
+                },
+                {
+                    "country": "Belgium",
+                    "litres": 60
+                },
+                {
+                    "country": "The Netherlands",
+                    "litres": 50
+                }
+            ],
+            // And, for a good measure, let's add a legend
+            //"legend": {}
+
+        }, "chart", "PieChart");
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

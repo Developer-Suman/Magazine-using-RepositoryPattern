@@ -1,0 +1,88 @@
+﻿@model Megazine_Practice.ViewModel.EmployeeIndexVm
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+<div class="article-list emp">
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-10">
+                <h1 class="title-head">List of Employees</h1>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-4">
+                        <a asp-action="Create" asp-controller="Employee" class="btn btn-primary">Create</a>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+
+
+            <hr />
+            <div class="col-md-12  table-data mt-3" style="overflow-x: scroll;">
+
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Contact_1</th>
+                        <th>Contact_2</th>
+                        <th>Marital_status</th>
+                        <th>Gender</th>
+                        <th>Join_Date</th>
+                        <th>Email</th>
+                        <th>Des</th>
+                        <th>Img</th>
+                        <th>Action</th>
+
+                    </tr>
+                    @{
+                        int i = 1;
+                    }
+                    @foreach (var item in Model.EmployeePagedList)
+                    {
+                        if (item.Employee_Id != 0)
+                        {
+                            <tr>
+                                <td>@(i++)</td>
+                                <td>@item.FullName</td>
+                                <td>@item.Address</td>
+                                <td>@item.Contact_1</td>
+                                <td>@item.Contact_2</td>
+                                <td>@item.Martial_Status</td>
+                                <td>@item.Gender</td>
+                                <td>@item.Joining_Date</td>
+                                <td>@item.Email</td>
+                                <td>@item.Description</td>
+                                <td>@item.Employee_Image</td>
+                                <td>
+                                    <a asp-action="Edit" asp-controller="Employee" asp-route-id="@item.Employee_Id"> <i class="fa-solid fa-pen-to-square"></i></a>
+                                    <a asp-action="Delete" asp-controller="Employee" asp-route-id="@item.Employee_Id"> <i class="fa-sharp fa-solid fa-trash"></i></a>
+
+
+                                </td>
+                            </tr>
+                        }
+                    }
+
+
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+</div>
